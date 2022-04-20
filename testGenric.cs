@@ -32,18 +32,18 @@ namespace testPrectish
         public abstract void  AddPeople<T>(T people);
     }
 
-    public class TypeOfPeople : People
-    {
-        public override void AddPeople<T>(T people) where T:default
-        {
-            throw new NotImplementedException();
-        }
+    //public class TypeOfPeople : People
+    //{
+        //public override void AddPeople<T>(T people) where T:default
+        //{
+            //throw new NotImplementedException();
+        //}
 
-        public override T GetPeople<T>() where T : default
-        {
-            throw new NotImplementedException();
-        }
-    }
+        //public override T GetPeople<T>() where T : default
+        //{
+            //throw new NotImplementedException();
+        //}
+    //}
     internal class testStruct<T> where T : ICollection<T>
     {
 
