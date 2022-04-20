@@ -38,7 +38,7 @@ namespace testPrectish
                    return a;
                };
 
-            var text = string? () => null;              
+            //var text = string? () => null;              
                     
                 
         }
